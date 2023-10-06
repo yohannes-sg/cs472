@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     background-color: #36A7E8;
 }
@@ -7,13 +9,18 @@ body {
 }
 
 .navbar-brand,
-.navbar-nav .nav-link,
-.navbar-nav .btn-sign-out {
-    color: white;
+.navbar-nav .nav-link
+{
+    color: white !important;
 }
 
-.nav-link:hover {
-    color: white !important;
+.nav-link:hover, 
+.navbar-brand:hover {
+    color: green!important;
+}
+.navbar-nav .btn-sign-out {
+    background-color: white;
+    color: black;
 }
 
 .container {
@@ -23,16 +30,19 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-label {
-    font-weight: bold;
+.btn-reset {
+    background-color: white !important; /* Add !important to override default Bootstrap styles */
+    color: #6C757D !important; /* Add !important to override default Bootstrap styles */
+}
+.btn-color{
+    background-color: white !important; /* Add !important to override default Bootstrap styles */
+    color: #FFC107 !important; /* Add !important to override default Bootstrap styles */
+}
+.btn-add-product{
+    background-color: white !important; /* Add !important to override default Bootstrap styles */
+    color: #0DCAF0 !important; /* Add !important to override default Bootstrap styles */
 }
 
-.btn-reset,
-.btn-color,
-.btn-add-product {
-    background-color: white;
-    color: #033C73;
-}
 
 .btn-reset:hover,
 .btn-color:hover,
@@ -41,8 +51,3 @@ body {
     color: white !important;
 }
 
-/* Add a white vertical line */
-.navbar-nav .nav-item:not(:last-child) {
-    border-right: 1px solid white;
-    padding-right: 15px; /* Adjust spacing */
-}
