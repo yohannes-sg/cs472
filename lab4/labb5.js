@@ -17,22 +17,6 @@
         
         //  number 3
         function isVowel(letter) {
-          // switch (letter) {
-          //   case "a":
-          //   case "e":
-          //   case "i":
-          //   case "o":
-          //   case "u":
-          //   case "A":
-          //   case "E":
-          //   case "I":
-          //   case "O":
-          //   case "U":
-          //     return true;
-          //     break;
-          //     default:
-          //        return false;
-          // }
           if (
             letter == "a" ||
             letter == "e" ||
@@ -126,4 +110,3 @@
           }
           return arr;
         }
-        
