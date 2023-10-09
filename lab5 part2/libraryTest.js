@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const { addBook, getTitles, findBooks } = require('./library'); 
+const { addBook, getTitles, findBooks } = require('./library.js'); 
 
 describe('Library Functions', () => {
   let libraryBooks = [];
@@ -37,4 +37,4 @@ describe('Library Functions', () => {
     const foundBooks = findBooks("Non-existent Title");
     expect(foundBooks).to.deep.equal([]);
   });
-});
+})
