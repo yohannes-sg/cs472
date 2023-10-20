@@ -18,3 +18,4 @@ let libraryBooks = [
   function findBooks(titleKey){
     return libraryBooks.map(element => element.title).filter(element => element.match(titleKey)).sort();
   }
+  module.exports = { addBook, getTitles, findBooks }
