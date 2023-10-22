@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* H1 styles */
+h1 {
+    color: #333;
+}
+
+/* Image styles */
+img {
+    max-width: 50%; /* Adjust the image size as needed */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 10px #999; /* Add a shadow */
+    margin: 20px; /* Add some spacing */
+}
+
+/* Form styles */
+form {
+    background-color: #fff; /* Form background color */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+    margin: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+input, button {
+    margin: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}

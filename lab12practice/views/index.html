@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>Select a category to explore:</p>
+    <img src='nature.jpeg' alt="Image Description">
+    
+    <form action="/routes/products" method="get">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName">
+        <br>
+        <label for="productCompany">Product Company:</label>
+        <input type="text" id="productCompany" name="productCompany">
+        <br>
+        <button type="submit">Explore Products</button>
+    </form>
+    
+    <!-- Form for Users -->
+    <form action="/routes/users" method="get">
+        <label for="userName">Username:</label>
+        <input type="text" id="userName" name="userName">
+        <br>
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name= "userId">
+        <br>
+        <label for="userCity">City:</label>
+        <input type="text" id="userCity" name="userCity">
+        <br>
+        <button type="submit">Explore Users</button>
+    </form>
+</body>
+</html>
